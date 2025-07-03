@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Likitha
-- 👀 I’m interested in design thinking, marketing and management
-- 🌱 I’m currently learning Financial Management
+- 👀 I’m interested in Data Analysis
+- 🌱 I’m currently learning Machine Learning
 - 📫 How to reach me https://www.linkedin.com/in/likitha-vankadoth-9b8a55213/
 
 <!---
