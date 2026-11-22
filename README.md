@@ -19,9 +19,9 @@ Two projects that work together. SizeRight plans a customer's Splunk stack, and 
 
 ---
 
-## 🧠 Research: Graph Neural Networks for fraud detection
+## 🧠 Master's Major Project: Graph Neural Networks for Fraud Detection
 
-**[Graph-Fraud-WK](https://github.com/kavehkarimadini/Graph-Fraud-WK)**: my Master's group project. We extended an open-source graph fraud-detection toolbox into a benchmark of ~20 GNN models across 5 real fraud datasets and 4 label ratios. My focus was graph-structure (heterophily) analysis. A research paper is in preparation.
+**[Graph-Fraud-WK](https://github.com/kavehkarimadini/Graph-Fraud-WK)**: Master's Data Science capstone project and open-source research collaboration. Contributed to a graph-based fraud detection framework implementing and evaluating more than 20 state-of-the-art Graph Neural Network (GNN) and graph anomaly detection models, including GraphConsis, BWGNN, CARE-GNN, PC-GNN, SparseGAD, SplitGNN and COFRAUD. Worked with real-world fraud datasets such as YelpChi, Amazon Reviews, Elliptic Bitcoin, T-Finance and T-Social, exploring fraud detection, graph anomaly detection, homophily and heterophily in large-scale networks using PyTorch and PyTorch Geometric.
 
 ---
 
