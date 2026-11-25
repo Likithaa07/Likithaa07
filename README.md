@@ -17,15 +17,21 @@ Two projects that work together. SizeRight plans a customer's Splunk stack, and 
 | [**SizeRight**](https://github.com/Likithaa07/sizeright) | Go API that turns a Splunk subscription into a deployment plan (indexers, search heads, storage) with a reason for every number, plus Terraform inputs | +41% throughput from load testing · chaos drills found and fixed a real outage bug · JWT, rate limits, Redis cache · [live on Render](https://sizeright.onrender.com/healthz) |
 | [**StackWatch**](https://github.com/Likithaa07/stackwatch) | Splunk app that compares each plan with real usage and alerts when a stack is undersized, oversized or silent | Detects undersized stacks in 12.1 min · 5 throttled alerts with runbooks · Kubernetes + Helm · 93% test coverage |
 
----
+---## 🧠 Master's Major Project: Graph Neural Networks for Fraud Detection
 
-## 🧠 Master's Major Project: Graph Neural Networks for Fraud Detection
+A 4-person research project at Macquarie University testing how well Graph Neural Networks (GNNs) detect fraud hidden in large networks of users, reviews and transactions. The team benchmarked 20+ graph fraud and anomaly detection models on 5 real-world datasets.
 
-A research and open-source collaboration exploring how Graph Neural Networks (GNNs) can detect fraud and anomalies in large-scale graph-structured data.
+**My part:**
 
-| Project | Research question | Key areas |
-|---|---|---|
-| **[Graph-Fraud-WK](https://github.com/kavehkarimadini/Graph-Fraud-WK)** | How effectively can modern GNN architectures identify fraudulent users, transactions and behaviours hidden within complex networks? | **20+ state-of-the-art graph fraud detection and graph anomaly detection models** · **5 real-world fraud datasets** (YelpChi, Amazon Reviews, Elliptic Bitcoin, T-Finance, T-Social) · Node classification · Graph anomaly detection · Homophily & heterophily analysis · Graph representation learning · PyTorch · PyTorch Geometric |
+- **Dataset verification:** computed each dataset's statistics directly from the graph files (YelpChi, Amazon, Elliptic, T-Finance, FDCompCN), focusing on local heterophily, the share of a fraud node's neighbours that are benign. Found that **4 of the 5 datasets were about 10× more heterophilic than their recorded values** (YelpChi: 0.117 → 0.805), meaning fraud is far more camouflaged than reported, and corrected the mismatches.
+- **Models:** trained and evaluated 5 models with very different approaches: **DGA-GNN** (decision-tree features), **BSL** (learning from very few labels), **TAM** (unsupervised), **GDN** (structural shift) and **ImGSL** (graph structure learning). Each was run at 4 training ratios × 5 random seeds, with AUPRC as the main metric because fraud is rare.
+- **Results:** **DGA-GNN was the best of all 20 models on YelpChi, Elliptic and FDCompCN**; ImGSL and GDN were strongest on the other datasets; BSL and TAM scored lowest. No single model wins everywhere. Presented the findings with comparison tables and visualisations.
+
+| | |
+|---|---|
+| **Team repo** | [Graph-Fraud-WK](https://github.com/kavehkarimadini/Graph-Fraud-WK) · my analysis: [`metrics_scores.ipynb`](https://github.com/kavehkarimadini/Graph-Fraud-WK/blob/master/metrics_scores.ipynb) |
+| **My code** | [MY REPO LINK: 5 models, results tables and charts] |
+| **Tools** | PyTorch · DGL · PyTorch Geometric · SciPy · pandas |
 
 ---
 
