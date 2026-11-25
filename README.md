@@ -44,20 +44,6 @@ A two-part study of the NSW Biodiversity Offsets Scheme, built from the governme
 
 **Deliverables:** Power BI dashboard · findings report · data quality report · data dictionary · policy briefing note · ANZLIC metadata
 
----
-
-## 🤖 Machine learning projects
-
-| Project | What it does | Tools |
-|---|---|---|
-| [**Real-Time Fraud Detection API**](https://github.com/Likithaa07/Real-Time-Financial-Fraud-Detection-API) | Detects fraudulent transactions in real time. Compares Isolation Forest, One-Class SVM, Random Forest, XGBoost and CatBoost, handles class imbalance with SMOTE, and serves predictions through a REST API with drift detection and automated retraining | CatBoost · XGBoost · scikit-learn · Flask |
-| [**Energy Forecasting & Anomaly Detection**](https://github.com/Likithaa07/LSTM-Based-Energy-Consumption-Forecasting-and-Anomaly-Detection) | Forecasts hourly energy consumption on real PJM power grid data and flags unusual usage, served through a web app | TensorFlow / Keras · LSTM |
-| [**Customer Churn Prediction**](https://github.com/Likithaa07/Customer_churn_prediction) | Identifies customers likely to leave, using EDA and feature engineering, and compares Logistic Regression, Random Forest and XGBoost with SHAP explanations | scikit-learn · XGBoost · SHAP |
-| [**Causal Impact on Retail Sales**](https://github.com/Likithaa07/Causal-Impact-Retail-Sales) | Measures the true effect of marketing campaigns on sales with causal modelling and robustness checks | DoWhy · Python |
-| [**Emerging Market Trend Prediction**](https://github.com/Likithaa07/emerging-market-trend-prediction) | Detects and ranks early trend formation in tech stocks, using price and abnormal trading volume as signals of attention | Supervised ML · Python |
-| [**Multivariate Bi-LSTM for Stock Prices**](https://github.com/Likithaa07/multivariate-Bi-LSTM-for-equity-price-prediction) | Forecasts short-term stock prices from multiple features and engineered technical indicators (moving averages, RSI) | TensorFlow / Keras · Bi-LSTM |
-| [**LSTM vs Bi-LSTM**](https://github.com/Likithaa07/lstm-vs-bilstm-stock-prediction) | A fair, like-for-like comparison of LSTM and Bi-LSTM forecasting. Finding: the more complex model didn't consistently win | TensorFlow / Keras |
-| [**Air Quality Forecasting Dashboard**](https://github.com/Likithaa07/RealTime_AirQuality_Dashboard) | Forecasts air pollution (CO) levels and shows predictions in an interactive dashboard | scikit-learn · Streamlit |
 
 ---
 
