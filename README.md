@@ -17,7 +17,8 @@ Two projects that work together. SizeRight plans a customer's Splunk stack, and 
 | [**SizeRight**](https://github.com/Likithaa07/sizeright) | Go API that turns a Splunk subscription into a deployment plan (indexers, search heads, storage) with a reason for every number, plus Terraform inputs | +41% throughput from load testing · chaos drills found and fixed a real outage bug · JWT, rate limits, Redis cache · [live on Render](https://sizeright.onrender.com/healthz) |
 | [**StackWatch**](https://github.com/Likithaa07/stackwatch) | Splunk app that compares each plan with real usage and alerts when a stack is undersized, oversized or silent | Detects undersized stacks in 12.1 min · 5 throttled alerts with runbooks · Kubernetes + Helm · 93% test coverage |
 
----## 🧠 Master's Major Project: Graph Neural Networks for Fraud Detection
+---
+## 🧠 Master's Major Project: Graph Neural Networks for Fraud Detection
 
 A 4-person research project at Macquarie University testing how well Graph Neural Networks (GNNs) detect fraud hidden in large networks of users, reviews and transactions. The team benchmarked 20+ graph fraud and anomaly detection models on 5 real-world datasets.
 
