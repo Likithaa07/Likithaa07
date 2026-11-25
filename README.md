@@ -28,11 +28,8 @@ A 4-person research project at Macquarie University testing how well Graph Neura
 - **Models:** trained and evaluated 5 models with very different approaches: **DGA-GNN** (decision-tree features), **BSL** (learning from very few labels), **TAM** (unsupervised), **GDN** (structural shift) and **ImGSL** (graph structure learning). Each was run at 4 training ratios × 5 random seeds, with AUPRC as the main metric because fraud is rare.
 - **Results:** **DGA-GNN was the best of all 20 models on YelpChi, Elliptic and FDCompCN**; ImGSL and GDN were strongest on the other datasets; BSL and TAM scored lowest. No single model wins everywhere. Presented the findings with comparison tables and visualisations.
 
-| | |
-|---|---|
-| **Team repo** | [Graph-Fraud-WK](https://github.com/kavehkarimadini/Graph-Fraud-WK) · my analysis: [`metrics_scores.ipynb`](https://github.com/kavehkarimadini/Graph-Fraud-WK/blob/master/metrics_scores.ipynb) |
-| **My code** | [MY REPO LINK: 5 models, results tables and charts] |
-| **Tools** | PyTorch · DGL · PyTorch Geometric · SciPy · pandas |
+**Team repo:** [Graph-Fraud-WK](https://github.com/kavehkarimadini/Graph-Fraud-WK) · my analysis: [`metrics_scores.ipynb`](https://github.com/kavehkarimadini/Graph-Fraud-WK/blob/master/metrics_scores.ipynb)  
+**Tools:** PyTorch · DGL · PyTorch Geometric · SciPy · pandas
 
 ---
 
