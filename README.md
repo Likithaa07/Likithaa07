@@ -29,7 +29,7 @@ A 4-person research project at Macquarie University testing how well Graph Neura
 - **Results:** **DGA-GNN was the best of all 20 models on YelpChi, Elliptic and FDCompCN**; ImGSL and GDN were strongest on the other datasets; BSL and TAM scored lowest. No single model wins everywhere. Presented the findings with comparison tables and visualisations.
 
 **Team repo:** [Graph-Fraud-WK](https://github.com/kavehkarimadini/Graph-Fraud-WK) · my analysis: [`metrics_scores.ipynb`](https://github.com/kavehkarimadini/Graph-Fraud-WK/blob/master/metrics_scores.ipynb)  
-**Tools:** PyTorch · DGL · PyTorch Geometric · SciPy · pandas
+**Tools:** PyTorch · DGL · PyTorch Geometric · SciPy · pandas · NVIDIA GB10 (Grace Blackwell) on Vast.ai
 
 ---
 
