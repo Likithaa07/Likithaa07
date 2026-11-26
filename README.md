@@ -47,13 +47,16 @@ A two-part study of the NSW Biodiversity Offsets Scheme, built from the governme
 
 ---
 
-## 🛠️ Tech stack
-
-**Languages:** Python · Go · SQL  
-**Backend & data:** REST APIs · PostgreSQL · Redis · pandas · NumPy  
-**Observability & cloud:** Splunk (SPL, dashboards, alerts, HEC) · Docker · Kubernetes · Helm · Terraform · GitHub Actions  
-**Machine learning:** scikit-learn · PyTorch · TensorFlow / Keras · XGBoost · CatBoost · SHAP · statsmodels  
-**Spatial & visualisation:** GeoPandas · ArcGIS REST · Power BI · Streamlit · Matplotlib
+| Area | Tools | Where you can see it |
+|---|---|---|
+| **Languages** | Python · Go · SQL | All projects · SizeRight · Postgres migrations |
+| **Backend & APIs** | REST APIs · PostgreSQL · Redis · JWT auth · rate limiting | SizeRight |
+| **Cloud & DevOps** | Docker · Kubernetes · Helm · Terraform · GitHub Actions · Render | SizeRight · StackWatch |
+| **Observability** | Splunk (SPL, dashboards, alerts, HEC) · runbooks · chaos drills | SizeRight · StackWatch |
+| **Testing & quality** | Go test · pytest · k6 load testing · ruff · govulncheck · gitleaks | SizeRight · StackWatch · NSW projects |
+| **Machine learning** | PyTorch · PyTorch Geometric · DGL · scikit-learn · XGBoost · CatBoost · TensorFlow / Keras · SHAP · statsmodels | GNN fraud project · NSW price model |
+| **Data & visualisation** | pandas · NumPy · GeoPandas · ArcGIS REST · Power BI · Streamlit · Matplotlib | NSW projects · GNN fraud project |
+| **GPU compute** | NVIDIA GB10 on Vast.ai (cloud) | GNN fraud project |
 
 ---
 
